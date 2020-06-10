@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * The main file of the module.
+ */
+
+
+function northwestern_openam_extra_form_alter(&$form, $form_state, $form_id) {
+
+  
+
+    if ($form_id == 'user_login' ) {
+
+        echo 'Forwarding you to SSO';
+     
+        drupal_goto('northwestern_openam/connect');
+        die();
+   
+    }
+  }
+
+
+
+

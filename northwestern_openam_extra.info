@@ -1,0 +1,11 @@
+neame = Northwestern OpenAM Extra
+description = Northwestern OpenAM Authentication Module, Extra. Stuff that I want to add but I don't want to make a fork of this Repository
+core = 7.x
+dependencies[] = rules
+dependencies[] = northwestern_openam
+; Information added by Drupal.org packaging script on 2015-03-24
+version = "7.x-1.2"
+core = "7.x"
+project = "northwestern_openam"
+datestamp = "1427229875"
+
